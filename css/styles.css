@@ -1,8 +1,13 @@
 body {
   background-color: black;
-  font-family: Impact, Charcoal, sans-serif;
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
   font-weight: lighter;
   font-stretch: extra-condensed;
+  text-align: center;
+}
+
+img {
+  max-width: 250px;
 }
 
 .page-wrapper {
