@@ -1,0 +1,15 @@
+body {
+  background-color: black;
+  font-family: Impact, Charcoal, sans-serif;
+  font-weight: lighter;
+  font-stretch: extra-condensed;
+}
+
+.page-wrapper {
+  padding: 70px;
+}
+
+.well {
+  background-color: teal;
+  color: lightcyan;
+}
