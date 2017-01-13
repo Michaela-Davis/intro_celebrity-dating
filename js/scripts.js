@@ -21,8 +21,12 @@ $(document).ready(function() {
     } else if (age <= 30 && gender === "female") {
       $("#cardEmma").show();
       $("form").hide();
+    } else if (gender === "male") {
+      $("#cardColin").show();
+      $("form").hide();
     } else {
-      alert ("Scarlett or Colin");
+      $("#cardScarlett").show();
+      $("form").hide();
     }
 
 
