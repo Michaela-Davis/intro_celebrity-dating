@@ -10,8 +10,8 @@ $(document).ready(function() {
     var gender = $('input.gender:checked').val();
 
     if (age >= 50 && gender === "male") {
-      alert("Pierce");
       $("#card1").show();
+      $("form").hide();
     } else if (age >= 50) {
       alert("Renee");
     } else {
