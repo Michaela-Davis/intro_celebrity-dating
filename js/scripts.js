@@ -1,14 +1,18 @@
 $(document).ready(function() {
   $("form").submit(function(event) {
-    var numberInput = $("#number").val();
-    console.log(numberInput);
-    if (parseInt(numberInput) > 10) {
-      alert("Your number is greater than 10");
-    } else if (parseInt(numberInput) === 10) {
-      alert("Congratulations, your number is 10")
+    var age = parseInt($("#age").val());
+    console.log(age);
+    // var gender = $(#gender).val();
+
+    if (age >= 50) {
+      alert("Renee or Pierce");
+    } else if (age <= 30) {
+      alert("Emma or Liam");
     } else {
-      alert ("Your number is less than 10");
+      alert ("Scarlett or Colin");
     }
+
+
     event.preventDefault();
   });
 });
