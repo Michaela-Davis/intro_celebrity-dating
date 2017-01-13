@@ -10,10 +10,17 @@ $(document).ready(function() {
     var gender = $('input.gender:checked').val();
 
     if (age >= 50 && gender === "male") {
-      $("#card1").show();
+      $("#cardPierce").show();
       $("form").hide();
     } else if (age >= 50) {
-      alert("Renee");
+      $("#cardRene").show();
+      $("form").hide();
+    } else if (age <= 30 && gender === "male") {
+      $("#cardLiam").show();
+      $("form").hide();
+    } else if (age <= 30 && gender === "female") {
+      $("#cardEmma").show();
+      $("form").hide();
     } else {
       alert ("Scarlett or Colin");
     }
