@@ -8,6 +8,9 @@ $(document).ready(function() {
     var age = parseInt($("#age").val());
     console.log(age);
     var gender = $('input.gender:checked').val();
+    var activityInput = $("#activity").val();
+
+    $("span.activity").append(activityInput);
 
     if (age >= 50 && gender === "male") {
       $("#cardPierce").show();
